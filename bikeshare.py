@@ -39,7 +39,7 @@ def get_filters():
             break
 
      while True:
-        day = input('Please type the day of the week you want to analyze.\
+        day = input('Please type which day of the week you want to analyze.\
                     If you don\'t want to filter, tipe "all".: ').lower()
 
         if day not in ('monday','tuesday','wednesday','thursday',\
