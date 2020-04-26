@@ -29,7 +29,7 @@ def get_filters():
             break
 
      while True:
-        month = input('Please type the month you want to analyze from January to June.\
+        month = input('Please type which month you want to analyze from January to June.\
                       If you don\'t want to filter, tipe "all".: ').lower()
 
         if month not in ('january','february','march','april','may','june','all'):
