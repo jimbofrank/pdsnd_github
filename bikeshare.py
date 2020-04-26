@@ -97,6 +97,7 @@ def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
+    #Register start time for function time_stats
     start_time = time.time()
 
     # TO DO: display the most common month
@@ -121,6 +122,7 @@ def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
+    #Register start time for function station_stats
     start_time = time.time()
 
     # TO DO: display most commonly used start station
@@ -141,6 +143,7 @@ def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
+    #Register start time for function trip_duration_stats
     start_time = time.time()
 
     # TO DO: display total travel time
